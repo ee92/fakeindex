@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body, button, textarea {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', Helvetica Neue, Helvetica, sans-serif;
+}
+
+.hover-item:hover {
+  background-color: rgba(0,0,0,.2);
+  cursor: pointer;
+}
+
+.article {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  height: 100%;
+  width: 600px;
+  background-color: grey;
+  overflow: auto;
+}
+
+@media (max-width: 800px) {
+  .article {
+    width: 100%;
+  }
+}
